@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+</head>
+<body>
+<h1>Connect Four</h1>
+<div>
+  <label for=""># of Players: </label>
+  <input type="number" min="2" max="10" placeholder="2" id="numColors">
+  <button id="check">Check</button>
+
+  <div id="colors"></div><br>
+  <!-- <label for="">Color One: </label>
+  <input type="text" id="color-1" placeholder="Input color">
+  <label for="">Color Two: </label>    
+  <input type="text" id="color-2" placeholder="Input color"><br> -->
+  <label for="">Rows: </label>
+  <input type="number" min="1" id="rows" placeholder="1">
+  <label for="">Columns: </label>
+  <input type="number" min="1" id="columns" placeholder="1">
+  <button id="start-game">Start Game</button>
+</div>
+<div id="game">
+  <table id="board"></table>
+</div>
+
+<script src="connect4.js"></script>
+
+</body>
+</html>
